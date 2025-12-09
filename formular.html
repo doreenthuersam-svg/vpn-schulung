@@ -9,21 +9,25 @@
 
 <div class="content">
 <h2>Teilnahmebestätigung</h2>
-<p>Bitte tragen Sie Ihre Daten ein und bestätigen Sie die Schulung.</p>
+<p>Bitte tragen Sie Ihre Daten ein & bestätigen Sie, dass Sie die Schulung vollständig gelesen haben.</p>
 
-<form action="###FORMSPREE_URL_HERE###" method="POST">
-<label>Name:</label><br>
+<form action="https://formspree.io/f/mblnanay" method="POST">
+
+<label>Name (Vor- & Nachname):</label><br>
 <input type="text" name="Name" required><br><br>
 
 <label>Abteilung/Standort:</label><br>
 <input type="text" name="Abteilung"><br><br>
 
 <label><input type="checkbox" name="Bestätigung" required>
-Ich bestätige, dass ich die Schulung vollständig gelesen habe.</label><br><br>
+Ich bestätige, dass ich die Schulung vollständig gelesen und verstanden habe.</label><br><br>
+
+<input type="hidden" name="_redirect" value="https://DEIN-USERNAME.github.io/danke.html">
 
 <button type="submit">Bestätigung absenden</button>
 </form>
 
 </div>
+
 </body>
 </html>
