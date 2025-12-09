@@ -2,45 +2,59 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>VPN Mitarbeiterschulung</title>
-<style>
-    body {font-family: Arial, sans-serif; padding:40px; background:#f5f5f5; color:#222;}
-    h1{color:#004576; margin-bottom:10px;}
-    p{font-size:18px;}
-    .box{
-        background:white;
-        padding:25px;
-        border-radius:8px;
-        box-shadow:0 0 10px rgba(0,0,0,0.1);
-        max-width:650px;
-    }
-    a.button{
-        display:inline-block;
-        padding:12px 18px;
-        background:#004576;
-        color:white;
-        text-decoration:none;
-        font-weight:bold;
-        border-radius:5px;
-        margin-top:15px;
-    }
-    a.button:hover{background:#003355;}
-</style>
+<title>VPN Datenschutz Schulung</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="box">
-    <h1>VPN-Schulung – Startseite</h1>
-    <p>
-        Willkommen! Dies ist die interne Plattform für die VPN- & Datenschutzschulung.<br>
-        Sobald alle Inhalte stehen, wird hier zur Schulungsseite weitergeleitet.
-    </p>
+<div class="content">
+<h1>🚀 Interne VPN & Datenschutz-Schulung</h1>
+<p>Bitte lesen Sie alle Inhalte aufmerksam durch. Am Ende folgt ein Bestätigungsformular.</p>
 
-    <p><b>Status:</b> Live-Testseite aktiviert. Inhalte folgen.</p>
+<hr>
 
-    <a class="button" href="vpn-schulung.html">→ Zur Schulungsseite (in Arbeit)</a>
+<h2>1. Warum VPN?</h2>
+<ul>
+<li>Schutz sensibler Kundendaten</li>
+<li>Sicherer Zugriff auf interne Systeme</li>
+<li>Verschlüsselung bei externer Verbindung</li>
+</ul>
+
+<h2>2. Nutzungsvorschriften</h2>
+<ul>
+<li>Zugang nur für dienstliche Zwecke</li>
+<li>Keine Weitergabe von Zugangsdaten</li>
+<li>Verbindung muss aktiv sein bei Homeoffice/Außendienst</li>
+</ul>
+
+<h2>3. Passwortregeln</h2>
+<ul>
+<li>Mind. 12 Zeichen, Groß/klein, Zahl & Sonderzeichen</li>
+<li>Kein Passwort mehrfach nutzen</li>
+<li>Änderung mind. alle 6 Monate</li>
+</ul>
+
+<h2>4. Datenschutz – Do & Don't</h2>
+<b>Do:</b>
+<ul>
+<li>Gerät sperren wenn unbeaufsichtigt</li>
+<li>Daten nur in freigegebenen Systemen speichern</li>
+<li>Phishing melden – niemals Anhänge öffnen ohne Prüfung</li>
+</ul>
+<b>Don't:</b>
+<ul>
+<li>Keine privaten USB-Sticks</li>
+<li>Kein Versand sensibler Daten per Privat-Mail</li>
+<li>Kein Cloud-Sync außerhalb Unternehmensfreigaben</li>
+</ul>
+
+<hr>
+
+<h2>✔ Bestätigung</h2>
+<p>Nach dem Verständnis der Inhalte bitte auf den Button klicken und Formular ausfüllen:</p>
+
+<a class="button" href="formular.html">► Schulung jetzt bestätigen</a>
+
 </div>
-
 </body>
 </html>
