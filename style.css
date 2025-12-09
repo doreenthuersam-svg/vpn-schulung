@@ -21,3 +21,12 @@ ul{line-height:1.6;}
 }
 .button:hover{background:#003456;}
 .center{text-align:center;}
+/* Entfernt alle automatischen Icons/Emojis vor Überschriften */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+    content: "" !important;
+}
