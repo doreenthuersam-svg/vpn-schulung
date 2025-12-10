@@ -11,66 +11,56 @@
 <h2>Teilnahmebestätigung</h2>
 <p>Bitte tragen Sie Ihre Daten ein & bestätigen Sie, dass Sie die Schulung vollständig gelesen haben.</p>
 
-<form action="https://hook.eu1.make.com/2dcugclm75vhdjkeno7gxnxkgvtedx9s" method="POST" style="margin-top:30px;">
+<form action="https://hook.eu1.make.com/DEINE-WEBHOOK-URL-HIER-REIN" method="POST">
 
-    <div style="margin-bottom:15px;">
-        <label for="vorname"><b>Vorname:</b></label><br>
-        <input type="text" id="vorname" name="Vorname" required style="width:300px; padding:6px;">
-    </div>
+<label>Vorname:</label>
+<input type="text" name="Vorname" required><br><br>
 
-    <div style="margin-bottom:15px;">
-        <label for="nachname"><b>Nachname:</b></label><br>
-        <input type="text" id="nachname" name="Nachname" required style="width:300px; padding:6px;">
-    </div>
+<label>Nachname:</label>
+<input type="text" name="Nachname" required><br><br>
 
-    <div style="margin-bottom:15px;">
-        <label for="abteilung"><b>Abteilung:</b></label><br>
-        <input type="text" id="abteilung" name="Abteilung" required style="width:300px; padding:6px;">
-    </div>
+<label>Abteilung:</label>
+<input type="text" name="Abteilung"><br><br>
 
-    <div style="margin-bottom:15px;">
-        <label for="standort"><b>Standort:</b></label><br>
-        <select id="standort" name="Standort" required style="width:310px; padding:6px;">
-            <option value="" disabled selected>Bitte Standort auswählen</option>
-            <option>BritCars Krefeld</option>
-            <option>BritCars Kudamm</option>
-            <option>BritCars Spandau</option>
-            <option>BritCars Teltow</option>
-            <option>Holzhauser 10</option>
-            <option>Holzhauser 164</option>
-            <option>Ku´Damm Ford/Kia</option>
-            <option>Leipzig-Wiederitzsch</option>
-            <option>Lichtenberg</option>
-            <option>Mariendorf</option>
-            <option>Markkleeberg-Wachau</option>
-            <option>Marzahn</option>
-            <option>Nordring</option>
-            <option>Oranienburg Ford</option>
-            <option>Oranienburg Opel</option>
-            <option>Pankow</option>
-            <option>Potsdam</option>
-            <option>Pritzwalk</option>
-            <option>Spandau</option>
-            <option>Wilmersdorf</option>
-            <option>Wittenberge</option>
-            <option>Wittstock</option>
-            <option>Zehdenick</option>
-            <option>Sonstiger Standort</option>
-        </select>
-    </div>
+<label>Standort:</label>
+<select name="Standort" required>
+    <option value="">Bitte auswählen</option>
+    <option>Holzhauser 10</option>
+    <option>Ku´Damm Ford/Kia</option>
+    <option>Lichtenberg</option>
+    <option>Mariendorf</option>
+    <option>Marzahn</option>
+    <option>Nordring</option>
+    <option>Oranienburg Ford</option>
+    <option>Oranienburg Opel</option>
+    <option>Pankow</option>
+    <option>Potsdam</option>
+    <option>Pritzwalk</option>
+    <option>Holzhauser 164</option>
+    <option>Spandau</option>
+    <option>Wilmersdorf</option>
+    <option>Wittenberge</option>
+    <option>Wittstock</option>
+    <option>Zehdenick</option>
+    <option>BritCars Krefeld</option>
+    <option>BritCars Kudamm</option>
+    <option>BritCars Spandau</option>
+    <option>BritCars Teltow</option>
+    <option>Leipzig-Wiederitzsch</option>
+    <option>Markkleeberg-Wachau</option>
+</select><br><br>
 
-    <div style="margin-bottom:15px;">
-        <label>
-            <input type="checkbox" name="Bestätigung" required>
-            Ich bestätige, die Schulungsinhalte vollständig gelesen und verstanden zu haben.
-        </label>
-    </div>
+<label>
+<input type="checkbox" name="Bestaetigung" required>
+Ich bestätige, dass ich die Schulungsinhalte vollständig gelesen und verstanden habe.
+</label><br><br>
 
-    <button type="submit" style="padding:10px 18px; background:#004576; color:white; border:none; border-radius:5px; cursor:pointer;">
-        Teilnahme bestätigen
-    </button>
+<!-- Hier kommt jetzt der Redirect rein -->
+<input type="hidden" name="_redirect" value="https://doreenthuersam-svg.github.io/vpn-schulung/danke.html">
 
+<button type="submit">Teilnahme bestätigen</button>
 </form>
+
 
 
 
