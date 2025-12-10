@@ -13,19 +13,38 @@
 
 <form action="https://formspree.io/f/mblnanay" method="POST">
 
-<label>Name (Vor- & Nachname):</label><br>
-<input type="text" name="Name" required><br><br>
+    <label for="vorname">Vorname:</label>
+    <input type="text" id="vorname" name="Vorname" required>
 
-<label>Abteilung/Standort:</label><br>
-<input type="text" name="Abteilung"><br><br>
+    <label for="nachname">Nachname:</label>
+    <input type="text" id="nachname" name="Nachname" required>
 
-<label><input type="checkbox" name="Bestätigung" required>
-Ich bestätige, dass ich die Schulung vollständig gelesen und verstanden habe.</label><br><br>
+    <label for="abteilung">Abteilung:</label>
+    <input type="text" id="abteilung" name="Abteilung" required>
 
-<input type="hidden" name="_redirect" value="https://doreenthuersam-svg.github.io/vpn-schulung/danke.html">
+    <label for="standort">Standort:</label>
+    <select id="standort" name="Standort" required>
+        <option value="" disabled selected>Bitte auswählen</option>
+        <option>Berlin</option>
+        <option>Spandau</option>
+        <option>Wittenberge</option>
+        <option>Königs Wusterhausen</option>
+        <option>Leipzig</option>
+        <option>Dresden</option>
+        <option>Magdeburg</option>
+        <option>Hannover</option>
+        <option>Schwerin</option>
+        <option>Andere</option>
+    </select>
 
-<button type="submit">Bestätigung absenden</button>
+    <label class="checkbox">
+        <input type="checkbox" name="Bestätigung" required>
+        Ich bestätige, die Schulungsinhalte vollständig gelesen und verstanden zu haben.
+    </label>
+
+    <button type="submit">Teilnahme bestätigen</button>
 </form>
+
 
 </div>
 
