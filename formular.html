@@ -11,52 +11,65 @@
 <h2>Teilnahmebestätigung</h2>
 <p>Bitte tragen Sie Ihre Daten ein & bestätigen Sie, dass Sie die Schulung vollständig gelesen haben.</p>
 
-<form action="https://formspree.io/f/mblnanay" method="POST">
+<form action="https://formspree.io/f/mblnanay" method="POST" style="margin-top:30px;">
 
-    <label for="vorname">Vorname:</label>
-    <input type="text" id="vorname" name="Vorname" required>
+    <div style="margin-bottom:15px;">
+        <label for="vorname"><b>Vorname:</b></label><br>
+        <input type="text" id="vorname" name="Vorname" required style="width:300px; padding:6px;">
+    </div>
 
-    <label for="nachname">Nachname:</label>
-    <input type="text" id="nachname" name="Nachname" required>
+    <div style="margin-bottom:15px;">
+        <label for="nachname"><b>Nachname:</b></label><br>
+        <input type="text" id="nachname" name="Nachname" required style="width:300px; padding:6px;">
+    </div>
 
-    <label for="abteilung">Abteilung:</label>
-    <input type="text" id="abteilung" name="Abteilung" required>
+    <div style="margin-bottom:15px;">
+        <label for="abteilung"><b>Abteilung:</b></label><br>
+        <input type="text" id="abteilung" name="Abteilung" required style="width:300px; padding:6px;">
+    </div>
 
-    <label for="standort">Standort:</label>
-    <select id="standort" name="Standort" required>
-        <option value="" disabled selected>Bitte Standort auswählen</option>
-        <option value="BritCars Krefeld">BritCars Krefeld</option>
-        <option value="BritCars Kudamm">BritCars Kudamm</option>
-        <option value="BritCars Spandau">BritCars Spandau</option>
-        <option value="BritCars Teltow">BritCars Teltow</option>
-        <option value="Holzhauser 10">Holzhauser 10</option>
-        <option value="Holzhauser 164">Holzhauser 164</option>
-        <option value="Ku´Damm Ford/Kia">Ku´Damm Ford/Kia</option>
-        <option value="Leipzig-Wiederitzsch">Leipzig-Wiederitzsch</option>
-        <option value="Lichtenberg">Lichtenberg</option>
-        <option value="Mariendorf">Mariendorf</option>
-        <option value="Markkleeberg-Wachau">Markkleeberg-Wachau</option>
-        <option value="Marzahn">Marzahn</option>
-        <option value="Nordring">Nordring</option>
-        <option value="Oranienburg Ford">Oranienburg Ford</option>
-        <option value="Oranienburg Opel">Oranienburg Opel</option>
-        <option value="Pankow">Pankow</option>
-        <option value="Potsdam">Potsdam</option>
-        <option value="Pritzwalk">Pritzwalk</option>
-        <option value="Spandau">Spandau</option>
-        <option value="Wilmersdorf">Wilmersdorf</option>
-        <option value="Wittenberge">Wittenberge</option>
-        <option value="Wittstock">Wittstock</option>
-        <option value="Zehdenick">Zehdenick</option>
-        <option value="Sonstiger Standort">Andere / nicht gelistet</option>
-    </select>
+    <div style="margin-bottom:15px;">
+        <label for="standort"><b>Standort:</b></label><br>
+        <select id="standort" name="Standort" required style="width:310px; padding:6px;">
+            <option value="" disabled selected>Bitte Standort auswählen</option>
+            <option>BritCars Krefeld</option>
+            <option>BritCars Kudamm</option>
+            <option>BritCars Spandau</option>
+            <option>BritCars Teltow</option>
+            <option>Holzhauser 10</option>
+            <option>Holzhauser 164</option>
+            <option>Ku´Damm Ford/Kia</option>
+            <option>Leipzig-Wiederitzsch</option>
+            <option>Lichtenberg</option>
+            <option>Mariendorf</option>
+            <option>Markkleeberg-Wachau</option>
+            <option>Marzahn</option>
+            <option>Nordring</option>
+            <option>Oranienburg Ford</option>
+            <option>Oranienburg Opel</option>
+            <option>Pankow</option>
+            <option>Potsdam</option>
+            <option>Pritzwalk</option>
+            <option>Spandau</option>
+            <option>Wilmersdorf</option>
+            <option>Wittenberge</option>
+            <option>Wittstock</option>
+            <option>Zehdenick</option>
+            <option>Sonstiger Standort</option>
+        </select>
+    </div>
 
-    <label>
-        <input type="checkbox" name="Bestätigung" required>
-        Ich bestätige, die Schulungsinhalte vollständig gelesen und verstanden zu haben.
-    </label>
+    <div style="margin-bottom:15px;">
+        <label>
+            <input type="checkbox" name="Bestätigung" required>
+            Ich bestätige, die Schulungsinhalte vollständig gelesen und verstanden zu haben.
+        </label>
+    </div>
 
-    <button type="submit">Teilnahme bestätigen</button>
+    <button type="submit" style="padding:10px 18px; background:#004576; color:white; border:none; border-radius:5px; cursor:pointer;">
+        Teilnahme bestätigen
+    </button>
+
 </form>
 
 
